@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html style="font-size: 16px;">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8">
+    <meta name="keywords" content="Robinson&amp;apos;s Island">
+    <meta name="description" content="">
+    <title>StateMachine</title>
+    <link rel="stylesheet" href="nicepage.css" media="screen">
+<link rel="stylesheet" href="StateMachine.css" media="screen">
+    <script class="u-script" type="text/javascript" src="jquery.js" defer=""></script>
+    <script class="u-script" type="text/javascript" src="nicepage.js" defer=""></script>
+    <meta name="generator" content="Nicepage 4.12.17, nicepage.com">
+    <link id="u-theme-google-font" rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i|Open+Sans:300,300i,400,400i,500,500i,600,600i,700,700i,800,800i">
+    
+    
+    
+    
+    
+    
+    
+    <script type="application/ld+json">{
+		"@context": "http://schema.org",
+		"@type": "Organization",
+		"name": ""
+}</script>
+    <meta name="theme-color" content="#478ac9">
+    <meta property="og:title" content="StateMachine">
+    <meta property="og:type" content="website">
+  </head>
+  <body class="u-body u-xl-mode"><header class="u-clearfix u-header u-palette-1-dark-3 u-header" id="sec-4ead"><div class="u-clearfix u-sheet u-sheet-1">
+        <nav class="u-menu u-menu-dropdown u-offcanvas u-menu-1">
+          <div class="menu-collapse" style="font-size: 1rem; letter-spacing: 0px;">
+            <a class="u-button-style u-custom-left-right-menu-spacing u-custom-padding-bottom u-custom-top-bottom-menu-spacing u-nav-link u-text-active-palette-1-base u-text-hover-palette-2-base" href="#">
+              <svg class="u-svg-link" viewBox="0 0 24 24"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#menu-hamburger"></use></svg>
+              <svg class="u-svg-content" version="1.1" id="menu-hamburger" viewBox="0 0 16 16" x="0px" y="0px" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg"><g><rect y="1" width="16" height="2"></rect><rect y="7" width="16" height="2"></rect><rect y="13" width="16" height="2"></rect>
+</g></svg>
+            </a>
+          </div>
+          <div class="u-nav-container">
+            <ul class="u-nav u-unstyled u-nav-1"><li class="u-nav-item"><a class="u-button-style u-nav-link u-text-active-palette-1-base u-text-hover-palette-2-base" href="Portfolio.html" style="padding: 10px 20px;">Portfolio</a>
+</li><li class="u-nav-item"><a class="u-button-style u-nav-link u-text-active-palette-1-base u-text-hover-palette-2-base" href="Regnarok.html" style="padding: 10px 20px;">Regnarok</a>
+</li><li class="u-nav-item"><a class="u-button-style u-nav-link u-text-active-palette-1-base u-text-hover-palette-2-base" href="StateMachine.html" style="padding: 10px 20px;">StateMachine</a>
+</li><li class="u-nav-item"><a class="u-button-style u-nav-link u-text-active-palette-1-base u-text-hover-palette-2-base" href="Astar.html" style="padding: 10px 20px;">Astar</a>
+</li></ul>
+          </div>
+          <div class="u-nav-container-collapse">
+            <div class="u-black u-container-style u-inner-container-layout u-opacity u-opacity-95 u-sidenav">
+              <div class="u-inner-container-layout u-sidenav-overflow">
+                <div class="u-menu-close"></div>
+                <ul class="u-align-center u-nav u-popupmenu-items u-unstyled u-nav-2"><li class="u-nav-item"><a class="u-button-style u-nav-link" href="Portfolio.html">Portfolio</a>
+</li><li class="u-nav-item"><a class="u-button-style u-nav-link" href="Regnarok.html">Regnarok</a>
+</li><li class="u-nav-item"><a class="u-button-style u-nav-link" href="StateMachine.html">StateMachine</a>
+</li><li class="u-nav-item"><a class="u-button-style u-nav-link" href="Astar.html">Astar</a>
+</li></ul>
+              </div>
+            </div>
+            <div class="u-black u-menu-overlay u-opacity u-opacity-70"></div>
+          </div>
+        </nav>
+        <h5 class="u-text u-text-1">Jorn Krediet</h5>
+      </div></header>
+    <section class="u-clearfix u-grey-70 u-section-1" id="sec-5434">
+      <div class="u-clearfix u-sheet u-sheet-1">
+        <img class="u-image u-image-default u-image-1" src="images/image.png" alt="" data-image-width="600" data-image-height="230">
+        <h6 class="u-text u-text-default u-text-1">
+          <a class="u-active-none u-border-none u-btn u-button-link u-button-style u-hover-none u-none u-text-palette-1-base u-btn-1" href="https://github.com/JkredietW/State-machine" target="_blank">Github</a>
+        </h6>
+      </div>
+    </section>
+    <section class="u-align-center u-clearfix u-grey-70 u-section-2" id="carousel_9eba">
+      <div class="u-clearfix u-sheet u-sheet-1">
+        <h1 class="u-text u-text-default u-text-1">State machine</h1>
+        <p class="u-align-left u-text u-text-2"> School project 3-1. (9 weeks)<br>I was making a small colony-sim, because it looked kinda amusing to make. Having all those tiny people walk around.&nbsp;<br>
+        </p>
+        <p class="u-align-left u-text u-text-3"> After i had a few functions for walking/eating/sleeping, but i was getting a bit out of hand with all the if-statements. Thats when i remembered a friend that was doing something similar mentioning State machine.</p>
+        <p class="u-align-left u-text u-text-4"> After doing some research about it. I came to the conclusion that it would be a nice selution. So i implemented it and yes, it nice to just swap from behaviors when needed by calling one function. It also became real nice to just add another behavior to my little humans.</p>
+      </div>
+    </section>
+    <section class="u-align-center u-clearfix u-grey-70 u-section-3" id="sec-bef3">
+      <div class="u-clearfix u-sheet u-valign-middle u-sheet-1">
+        <div class="u-align-left u-expanded-width-sm u-expanded-width-xs u-video u-video-1">
+          <div class="embed-responsive embed-responsive-1">
+            <iframe style="position: absolute;top: 0;left: 0;width: 100%;height: 100%;" class="embed-responsive-item" src="https://www.youtube.com/embed/hdk7ZbwM1XU?mute=0&amp;showinfo=0&amp;controls=0&amp;start=0" frameborder="0" allowfullscreen=""></iframe>
+          </div>
+        </div>
+        <p class="u-text u-text-1">This video shows how the tiny humans behave.</p>
+      </div>
+    </section>
+    <section class="u-clearfix u-grey-70 u-section-4" id="sec-f34c">
+      <div class="u-clearfix u-sheet u-sheet-1">
+        <p class="u-text u-text-1"> I made 4 roles: Workless, woodcutter, miner and farmer.<br>Workless humans walk around and do nothing. Like the one being selected in the video. This particular one has a lot of hunger and gets fast hungry. When enter the hungry-state humans will check if the house has any food stored and go there to eat. If the house has nothing they will search for the nearest foodsource. Foodsources are the green balls. <br>
+          <br>Woodcutters, miners and farmers will search for their job specific source to gather resources. When they cant carry any more they will go to the house(blue box) and store what they are carrying. That being said, they will stop working if they are working for to long. If that happens they shall enter idle-state to relieve their stress.<br>
+          <br> This little project also has a day/night cycle. When it becomes night all humans will gather at the house(blue box) to sleep till morning. The player can also select a human to observe them and see what they are doing. If a human is selected you can move them around. This uses the&nbsp;<a href="https://jkrediet.wixsite.com/portfolio/astar" target="_self" class="u-active-none u-border-none u-btn u-button-style u-hover-none u-none u-text-palette-1-base u-btn-1">Astar pathing</a>.
+        </p>
+      </div>
+    </section>
+    <section class="u-align-center u-clearfix u-grey-70 u-section-5" id="sec-9b87">
+      <div class="u-clearfix u-sheet u-valign-middle-xs u-sheet-1">
+        <div class="u-align-left u-expanded-width-sm u-expanded-width-xs u-video u-video-1">
+          <div class="embed-responsive embed-responsive-1">
+            <iframe style="position: absolute;top: 0;left: 0;width: 100%;height: 100%;" class="embed-responsive-item" src="https://www.youtube.com/embed/2JOUYX9266w?mute=0&amp;showinfo=0&amp;controls=0&amp;start=0" frameborder="0" allowfullscreen=""></iframe>
+          </div>
+        </div>
+        <p class="u-align-left u-text u-text-1">The pathfinding used here is a more refined Astar than the one showed on my other page. This one only searches once for a path, instead of every frame.</p>
+      </div>
+    </section>
+    <section class="u-clearfix u-grey-70 u-section-6" id="sec-8c36">
+      <div class="u-clearfix u-sheet u-sheet-1">
+        <h1 class="u-text u-text-default u-text-1">How a state machine works</h1>
+        <p class="u-text u-text-2"> As the state in State machine says, you have state in wich the stateMachine cycles. <br>
+          <br>To put it simple, you swap between behaviors. You will only have to call the function that changes the state with the desired state. So instead of using if statements to decide what to do, you only give it one option and change that option every time you chance states.
+        </p>
+      </div>
+    </section>
+    
+    
+    <footer class="u-align-center u-clearfix u-footer u-grey-80 u-footer" id="sec-3d11"><div class="u-align-left u-clearfix u-sheet u-sheet-1">
+        <p class="u-text u-text-1"> Email: JKredietW@gmail.com<br>Mobile: 06-49238315<br>
+          <a href="https://www.linkedin.com/in/jorn-krediet-650a55221/" target="_blank" rel="noreferrer noopener" class="u-active-none u-border-none u-btn u-button-style u-hover-none u-none u-text-palette-1-base u-btn-1">LinkedIn</a>
+        </p>
+      </div></footer>
+    <section class="u-backlink u-clearfix u-grey-80">
+      <a class="u-link" href="https://nicepage.com/website-templates" target="_blank">
+        <span>Website Templates</span>
+      </a>
+      <p class="u-text">
+        <span>created with</span>
+      </p>
+      <a class="u-link" href="" target="_blank">
+        <span>Website Builder Software</span>
+      </a>. 
+    </section>
+  </body>
+</html>
