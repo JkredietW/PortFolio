@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html style="font-size: 16px;">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8">
+    <meta name="keywords" content="Robinson&amp;apos;s Island">
+    <meta name="description" content="">
+    <title>Astar</title>
+    <link rel="stylesheet" href="nicepage.css" media="screen">
+<link rel="stylesheet" href="Astar.css" media="screen">
+    <script class="u-script" type="text/javascript" src="jquery.js" defer=""></script>
+    <script class="u-script" type="text/javascript" src="nicepage.js" defer=""></script>
+    <meta name="generator" content="Nicepage 4.12.17, nicepage.com">
+    <link id="u-theme-google-font" rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i|Open+Sans:300,300i,400,400i,500,500i,600,600i,700,700i,800,800i">
+    
+    
+    
+    
+    
+    <script type="application/ld+json">{
+		"@context": "http://schema.org",
+		"@type": "Organization",
+		"name": ""
+}</script>
+    <meta name="theme-color" content="#478ac9">
+    <meta property="og:title" content="Astar">
+    <meta property="og:type" content="website">
+  </head>
+  <body class="u-body u-xl-mode"><header class="u-clearfix u-header u-palette-1-dark-3 u-header" id="sec-4ead"><div class="u-clearfix u-sheet u-sheet-1">
+        <nav class="u-menu u-menu-dropdown u-offcanvas u-menu-1">
+          <div class="menu-collapse" style="font-size: 1rem; letter-spacing: 0px;">
+            <a class="u-button-style u-custom-left-right-menu-spacing u-custom-padding-bottom u-custom-top-bottom-menu-spacing u-nav-link u-text-active-palette-1-base u-text-hover-palette-2-base" href="#">
+              <svg class="u-svg-link" viewBox="0 0 24 24"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#menu-hamburger"></use></svg>
+              <svg class="u-svg-content" version="1.1" id="menu-hamburger" viewBox="0 0 16 16" x="0px" y="0px" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg"><g><rect y="1" width="16" height="2"></rect><rect y="7" width="16" height="2"></rect><rect y="13" width="16" height="2"></rect>
+</g></svg>
+            </a>
+          </div>
+          <div class="u-nav-container">
+            <ul class="u-nav u-unstyled u-nav-1"><li class="u-nav-item"><a class="u-button-style u-nav-link u-text-active-palette-1-base u-text-hover-palette-2-base" href="Portfolio.html" style="padding: 10px 20px;">Portfolio</a>
+</li><li class="u-nav-item"><a class="u-button-style u-nav-link u-text-active-palette-1-base u-text-hover-palette-2-base" href="Regnarok.html" style="padding: 10px 20px;">Regnarok</a>
+</li><li class="u-nav-item"><a class="u-button-style u-nav-link u-text-active-palette-1-base u-text-hover-palette-2-base" href="StateMachine.html" style="padding: 10px 20px;">StateMachine</a>
+</li><li class="u-nav-item"><a class="u-button-style u-nav-link u-text-active-palette-1-base u-text-hover-palette-2-base" href="Astar.html" style="padding: 10px 20px;">Astar</a>
+</li></ul>
+          </div>
+          <div class="u-nav-container-collapse">
+            <div class="u-black u-container-style u-inner-container-layout u-opacity u-opacity-95 u-sidenav">
+              <div class="u-inner-container-layout u-sidenav-overflow">
+                <div class="u-menu-close"></div>
+                <ul class="u-align-center u-nav u-popupmenu-items u-unstyled u-nav-2"><li class="u-nav-item"><a class="u-button-style u-nav-link" href="Portfolio.html">Portfolio</a>
+</li><li class="u-nav-item"><a class="u-button-style u-nav-link" href="Regnarok.html">Regnarok</a>
+</li><li class="u-nav-item"><a class="u-button-style u-nav-link" href="StateMachine.html">StateMachine</a>
+</li><li class="u-nav-item"><a class="u-button-style u-nav-link" href="Astar.html">Astar</a>
+</li></ul>
+              </div>
+            </div>
+            <div class="u-black u-menu-overlay u-opacity u-opacity-70"></div>
+          </div>
+        </nav>
+        <h5 class="u-text u-text-1">Jorn Krediet</h5>
+      </div></header>
+    <section class="u-clearfix u-grey-70 u-section-1" id="sec-5434">
+      <div class="u-clearfix u-sheet u-sheet-1">
+        <img class="u-image u-image-default u-image-1" src="images/astar.png" alt="" data-image-width="256" data-image-height="256">
+        <h6 class="u-text u-text-default u-text-1">
+          <a class="u-active-none u-border-none u-btn u-button-link u-button-style u-hover-none u-none u-text-palette-1-base u-btn-1" href="https://github.com/JkredietW/Astar-Pathfinding" target="_blank">Github</a>
+        </h6>
+      </div>
+    </section>
+    <section class="u-align-center u-clearfix u-grey-70 u-section-2" id="carousel_9eba">
+      <div class="u-clearfix u-sheet u-sheet-1">
+        <h1 class="u-text u-text-default u-text-1">Astar</h1>
+        <p class="u-align-left u-text u-text-2"> To be honest, i just wanted to move objects around without relying on the default Unity pathfinding. This is because the default unity pathfinding can't generate the pathfinding during playtime. <br>
+          <br>
+        </p>
+        <p class="u-align-left u-text u-text-3"> With my own Astar pathfinding i can choose where i want enemies to go and generate a new grid if needed while in playmode. With this i can add/remove objects on the grid in playtime. The objects that use this grid will also know that this happened and will react according to the changes.</p>
+      </div>
+    </section>
+    <section class="u-clearfix u-grey-70 u-section-3" id="sec-cf16">
+      <div class="u-clearfix u-sheet u-sheet-1">
+        <div class="u-clearfix u-gutter-30 u-layout-wrap u-layout-wrap-1">
+          <div class="u-layout">
+            <div class="u-layout-row">
+              <div class="u-align-left u-container-style u-layout-cell u-left-cell u-size-30 u-layout-cell-1">
+                <div class="u-container-layout u-container-layout-1">
+                  <div class="u-align-left u-expanded u-video">
+                    <div class="embed-responsive embed-responsive-1">
+                      <iframe style="position: absolute;top: 0;left: 0;width: 100%;height: 100%;" class="embed-responsive-item" src="https://www.youtube.com/embed/N8TXFz469Gg?mute=0&amp;showinfo=0&amp;controls=0&amp;start=0" frameborder="0" allowfullscreen=""></iframe>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="u-align-left u-container-style u-layout-cell u-size-30 u-layout-cell-2">
+                <div class="u-container-layout u-container-layout-2">
+                  <div class="u-align-left u-expanded u-video">
+                    <div class="embed-responsive embed-responsive-2">
+                      <iframe style="position: absolute;top: 0;left: 0;width: 100%;height: 100%;" class="embed-responsive-item" src="https://www.youtube.com/embed/iy2E9WuiVzU?mute=0&amp;showinfo=0&amp;controls=0&amp;start=0" frameborder="0" allowfullscreen=""></iframe>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="u-clearfix u-grey-70 u-section-4" id="sec-8c36">
+      <div class="u-clearfix u-sheet u-sheet-1">
+        <h1 class="u-text u-text-default u-text-1"> How Astar works</h1>
+        <p class="u-text u-text-2"> A* is one of the many pathfinding methods. It tries to find a path towards the destination with using the least possible tiles. Heres how it works. At the moment it starts to search for a path every tile get a few numbers: Gcost, Hcost and Fcost.<br>
+          <br>Gcost is how far away the tile is from the start tile.<br>Hcost is how far away the tile is from the end tile.<br>Fcost is the total cost combining G- and H-cost.<br>
+          <br> Now that every tile has these numbers it will start checking neiboring tiles to see wich of them has the lowest Hcost, if it is the same it will start the check the Fcost. This will go on with every tiles till it reaches its destination. <br>
+          <br>The grid also has these yellow tiles, those tiles are non-walkable tiles. When the grid gets generated every tile checks if it is colliding with an object with the layermask wall. If it is it will set a boolean to false and the pathfinding will ignore this tile.
+        </p>
+      </div>
+    </section>
+    
+    
+    <footer class="u-align-center u-clearfix u-footer u-grey-80 u-footer" id="sec-3d11"><div class="u-align-left u-clearfix u-sheet u-sheet-1">
+        <p class="u-text u-text-1"> Email: JKredietW@gmail.com<br>Mobile: 06-49238315<br>
+          <a href="https://www.linkedin.com/in/jorn-krediet-650a55221/" target="_blank" rel="noreferrer noopener" class="u-active-none u-border-none u-btn u-button-style u-hover-none u-none u-text-palette-1-base u-btn-1">LinkedIn</a>
+        </p>
+      </div></footer>
+    <section class="u-backlink u-clearfix u-grey-80">
+      <a class="u-link" href="https://nicepage.com/website-templates" target="_blank">
+        <span>Website Templates</span>
+      </a>
+      <p class="u-text">
+        <span>created with</span>
+      </p>
+      <a class="u-link" href="" target="_blank">
+        <span>Website Builder Software</span>
+      </a>. 
+    </section>
+  </body>
+</html>
