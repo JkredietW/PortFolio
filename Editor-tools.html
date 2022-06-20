@@ -5,9 +5,9 @@
     <meta charset="utf-8">
     <meta name="keywords" content="Robinson&amp;apos;s Island">
     <meta name="description" content="">
-    <title>Astar</title>
+    <title>Editor tools</title>
     <link rel="stylesheet" href="nicepage.css" media="screen">
-<link rel="stylesheet" href="Astar.css" media="screen">
+<link rel="stylesheet" href="Editor-tools.css" media="screen">
     <script class="u-script" type="text/javascript" src="jquery.js" defer=""></script>
     <script class="u-script" type="text/javascript" src="nicepage.js" defer=""></script>
     <meta name="generator" content="Nicepage 4.12.17, nicepage.com">
@@ -23,7 +23,7 @@
 		"name": ""
 }</script>
     <meta name="theme-color" content="#478ac9">
-    <meta property="og:title" content="Astar">
+    <meta property="og:title" content="Editor tools">
     <meta property="og:type" content="website">
   </head>
   <body class="u-body u-xl-mode"><header class="u-clearfix u-header u-palette-1-dark-3 u-header" id="sec-4ead"><div class="u-clearfix u-sheet u-sheet-1">
@@ -61,58 +61,40 @@
         <h5 class="u-text u-text-1">Jorn Krediet</h5>
       </div></header>
     <section class="u-clearfix u-grey-70 u-section-1" id="sec-5434">
-      <div class="u-clearfix u-sheet u-sheet-1">
-        <img class="u-image u-image-default u-image-1" src="images/astar.png" alt="" data-image-width="256" data-image-height="256">
-        <h6 class="u-text u-text-default u-text-1">
-          <a class="u-active-none u-border-none u-btn u-button-link u-button-style u-hover-none u-none u-text-palette-1-base u-btn-1" href="https://github.com/JkredietW/Astar-Pathfinding" target="_blank">Github</a>
-        </h6>
+      <div class="u-clearfix u-sheet u-valign-middle u-sheet-1">
+        <img class="u-image u-image-default u-image-1" src="images/UnityIcon.webp" alt="" data-image-width="110" data-image-height="92">
       </div>
     </section>
     <section class="u-align-center u-clearfix u-grey-70 u-section-2" id="carousel_9eba">
       <div class="u-clearfix u-sheet u-sheet-1">
-        <h1 class="u-text u-text-default u-text-1">Astar</h1>
-        <p class="u-align-left u-text u-text-2"> To be honest, i just wanted to move objects around without relying on the default Unity pathfinding. This is because the default unity pathfinding can't generate the pathfinding during playtime. <br>
-          <br>
-        </p>
-        <p class="u-align-left u-text u-text-3"> With my own Astar pathfinding i can choose where i want enemies to go and generate a new grid if needed while in playmode. With this i can add/remove objects on the grid in playtime. The objects that use this grid will also know that this happened and will react according to the changes.</p>
+        <h1 class="u-text u-text-default u-text-1">Prefab sorter</h1>
+        <p class="u-align-left u-text u-text-2">Due to a NDA i am not allowed to show any code. However i can eplain what this tool does.</p>
+        <p class="u-align-left u-text u-text-3">This is a tool that VROwl requested me to make. They can import this tool with an Unity package and use to it sort prefabs and all dependencies of the prefabs.&nbsp;</p>
       </div>
     </section>
-    <section class="u-clearfix u-grey-70 u-section-3" id="sec-cf16">
+    <section class="u-clearfix u-grey-70 u-section-3" id="sec-8c36">
       <div class="u-clearfix u-sheet u-sheet-1">
-        <div class="u-clearfix u-gutter-30 u-layout-wrap u-layout-wrap-1">
-          <div class="u-layout">
-            <div class="u-layout-row">
-              <div class="u-align-left u-container-style u-layout-cell u-left-cell u-size-30 u-layout-cell-1">
-                <div class="u-container-layout u-container-layout-1">
-                  <div class="u-align-left u-expanded u-video">
-                    <div class="embed-responsive embed-responsive-1">
-                      <iframe style="position: absolute;top: 0;left: 0;width: 100%;height: 100%;" class="embed-responsive-item" src="https://www.youtube.com/embed/N8TXFz469Gg?mute=0&amp;showinfo=0&amp;controls=0&amp;start=0" frameborder="0" allowfullscreen=""></iframe>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="u-align-left u-container-style u-layout-cell u-size-30 u-layout-cell-2">
-                <div class="u-container-layout u-container-layout-2">
-                  <div class="u-align-left u-expanded u-video">
-                    <div class="embed-responsive embed-responsive-2">
-                      <iframe style="position: absolute;top: 0;left: 0;width: 100%;height: 100%;" class="embed-responsive-item" src="https://www.youtube.com/embed/iy2E9WuiVzU?mute=0&amp;showinfo=0&amp;controls=0&amp;start=0" frameborder="0" allowfullscreen=""></iframe>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
+        <h1 class="u-text u-text-default u-text-1">How the tool works</h1>
+        <p class="u-text u-text-2">There are two sort options, prefabs and materials. The prefabs will be sorted in the given&nbsp;<br>main-catagoty -&gt; sub-gatagorie. Here it will create 4 folders prefabs, materials, textures and objects. It will also create a scene in this folder for the showcase.&nbsp;<br>
+          <br>After pressing the sort button. The prefab and dependencies will be sorted and spoawned in a scene for a preview.<br>
+          <br>This can also be done for materials. Only the destination folder will be Assets/Materials instead of Assets/main-catagory/sub-gatagory.<br>
+        </p>
       </div>
     </section>
-    <section class="u-clearfix u-grey-70 u-section-4" id="sec-8c36">
+    <section class="u-clearfix u-grey-70 u-section-4" id="carousel_a0b2">
       <div class="u-clearfix u-sheet u-sheet-1">
-        <h1 class="u-text u-text-default u-text-1"> How Astar works</h1>
-        <p class="u-text u-text-2"> A* is one of the many pathfinding methods. It tries to find a path towards the destination with using the least possible tiles. Heres how it works. At the moment it starts to search for a path every tile get a few numbers: Gcost, Hcost and Fcost.<br>
-          <br>Gcost is how far away the tile is from the start tile.<br>Hcost is how far away the tile is from the end tile.<br>Fcost is the total cost combining G- and H-cost.<br>
-          <br> Now that every tile has these numbers it will start checking neiboring tiles to see wich of them has the lowest Hcost, if it is the same it will start the check the Fcost. This will go on with every tiles till it reaches its destination. <br>
-          <br>The grid also has these yellow tiles, those tiles are non-walkable tiles. When the grid gets generated every tile checks if it is colliding with an object with the layermask wall. If it is it will set a boolean to false and the pathfinding will ignore this tile.
-        </p>
+        <h6 class="u-text u-text-1">These are the main catagories, with the creation of a new sub folder. Done by pressing the + button in the re-orderable-list.</h6>
+        <img class="u-image u-image-default u-image-1" src="images/image3.png" alt="" data-image-width="582" data-image-height="581">
+        <h6 class="u-text u-text-2">Added cube 1 to Example -&gt; Sub Folder as shown in the list. The list now shows all the prefabs in this sub folder.</h6>
+        <img class="u-image u-image-default u-image-2" src="images/image5.png" alt="" data-image-width="590" data-image-height="286">
+        <img class="u-image u-image-default u-image-3" src="images/image6.png" alt="" data-image-width="580" data-image-height="312">
+        <h6 class="u-text u-text-3">These are the settings for the sorter. When the "run" buttons is pressed and the spawn in settings are on.<br>
+        </h6>
+        <img class="u-image u-image-default u-image-4" src="images/image7.png" alt="" data-image-width="582" data-image-height="416">
+        <h6 class="u-text u-text-4">All the prefabs in the sub folder will be instantiate in the scene that is located in the same sub folder.<br>
+          <br>As the options show you can also choose to spawn in the materials, shown as a sphere.<br>
+          <br>The left object is a controller button with a red material in case you where wondering...
+        </h6>
       </div>
     </section>
     
@@ -123,8 +105,8 @@
         </p>
       </div></footer>
     <section class="u-backlink u-clearfix u-grey-80">
-      <a class="u-link" href="https://nicepage.com/website-templates" target="_blank">
-        <span>Website Templates</span>
+      <a class="u-link" href="https://nicepage.com/website-mockup" target="_blank">
+        <span>Website Mockup</span>
       </a>
       <p class="u-text">
         <span>created with</span>
